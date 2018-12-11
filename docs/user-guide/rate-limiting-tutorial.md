@@ -1,6 +1,6 @@
 # Rate Limiting
 
-Ambassador can validate incoming requests before routing them to a backing service. In this tutorial, we'll configure Ambassador to use an external third party rate limit service.
+Ambassador can validate incoming requests before routing them to a backing service. In this tutorial, we'll configure Ambassador to use a simple third party rate limit service. If you don't want to implement your own rate limiting service, Ambassador Pro integrates a [powerful, flexible rate-limiting service](/user-guide/advanced-rate-limiting).
 
 ## Before You Get Started
 
@@ -158,4 +158,4 @@ TCP_NODELAY set
 
 ## More
 
-For more details about configuring the external rate limit service, read the documentation on [external rate limit](/reference/services/rate-limit-service) and [rate_limits mapping](/reference/mappings#using-ratelimits).
+For more details about configuring the external rate limit service, read the documentation on [external rate limit](/reference/services/rate-limit-service) and [rate_limits mapping](/reference/rate-limits).
